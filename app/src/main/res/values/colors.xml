@@ -1,27 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="color_1">#FFAB4C</color>
-    <color name="color_1_Dark">#c77c1a</color>
-    <color name="color_1_Accent">#A75A29</color>
 
+    <color name="color_1_Primary">#646569</color>
+    <color name="color_1_Primary_Light">#929397</color>
+    <color name="color_1_primary_Dark">#3a3b3e</color>
+    <color name="color_1_Primary_Text">#ffffff</color>
+    <color name="color_1_Secondary">#a75a29</color>
+    <color name="color_1_Secondary_Light">#dd8854</color>
+    <color name="color_1_Secondary_Dark">#732f00</color>
+    <color name="color_1_Secondary_Text">#ffffff</color>
 
-    <color name="color_2">#A75A29</color>
-    <color name="color_2_Dark">#732f00</color>
-    <color name="color_2_Accent">#FFAB4C</color>
+    <color name="color_2_Primary">#a75a29</color>
+    <color name="color_2_Primary_Light">#dd8854</color>
+    <color name="color_2_primary_Dark">#732f00</color>
+    <color name="color_2_Primary_Text">#ffffff</color>
+    <color name="color_2_Secondary">#ffab4c</color>
+    <color name="color_2_Secondary_Light">#ffdd7c</color>
+    <color name="color_2_Secondary_Dark">#c77c1a</color>
+    <color name="color_2_Secondary_Text">#000000</color>
 
+    <color name="color_3_Primary">#FFAB4C</color>
+    <color name="color_3_Primary_Light">#ffdd7c</color>
+    <color name="color_3_primary_Dark">#c77c1a</color>
+    <color name="color_3_Primary_Text">#000000</color>
+    <color name="color_3_Secondary">#A75A29</color>
+    <color name="color_3_Secondary_Light">#dd8854</color>
+    <color name="color_3_Secondary_Dark">#732f00</color>
+    <color name="color_3_Secondary_Text">#ffffff</color>
 
-    <color name="color_3">#A4D55D</color>
-    <color name="color_3_Dark">#72a32d</color>
-    <color name="color_3_Accent">#FFAB4C</color>
+    <color name="color_4_Primary">#a4d55d</color>
+    <color name="color_4_Primary_Light">#d7ff8d</color>
+    <color name="color_4_primary_Dark">#72a32d</color>
+    <color name="color_4_Primary_Text">#000000</color>
+    <color name="color_4_Secondary">#ffab4c</color>
+    <color name="color_4_Secondary_Light">#ffdd7c</color>
+    <color name="color_4_Secondary_Dark">#c77c1a</color>
+    <color name="color_4_Secondary_Text">#000000</color>
 
-
-    <color name="color_4">#69C9BA</color>
-    <color name="color_4_Dark">#34988a</color>
-    <color name="color_4_Accent">#A75A29</color>
-
-
-    <color name="color_5">#646569</color>
-    <color name="color_5_Dark">#3a3b3e</color>
-    <color name="color_5_Accent">#A75A29</color>
-
+    <color name="color_5_Primary">#69c9ba</color>
+    <color name="color_5_Primary_Light">#9cfcec</color>
+    <color name="color_5_primary_Dark">#34988a</color>
+    <color name="color_5_Primary_Text">#000000</color>
+    <color name="color_5_Secondary">#a75a29</color>
+    <color name="color_5_Secondary_Light">#dd8854</color>
+    <color name="color_5_Secondary_Dark">#732f00</color>
+    <color name="color_5_Secondary_Text">#ffffff</color>
 </resources>
