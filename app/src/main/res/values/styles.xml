@@ -6,13 +6,39 @@
         <item name="colorPrimary">@color/color_1</item>
         <item name="colorPrimaryDark">@color/color_1_Dark</item>
         <item name="colorAccent">@color/color_1_Accent</item>
+        <item name="colorButtonNormal">@color/color_1_Accent</item>
     </style>
 
     <style name="AppTheme_2" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_2</item>
+        <item name="colorPrimaryDark">@color/color_2_Dark</item>
+        <item name="colorAccent">@color/color_2_Accent</item>
+        <item name="colorButtonNormal">@color/color_2_Accent</item>
+    </style>
+
+    <style name="AppTheme_3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_3</item>
+        <item name="colorPrimaryDark">@color/color_3_Dark</item>
+        <item name="colorAccent">@color/color_3_Accent</item>
+        <item name="colorButtonNormal">@color/color_3_Accent</item>
+    </style>
+
+    <style name="AppTheme_4" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/color_4</item>
         <item name="colorPrimaryDark">@color/color_4_Dark</item>
         <item name="colorAccent">@color/color_4_Accent</item>
+        <item name="colorButtonNormal">@color/color_4_Accent</item>
+    </style>
+
+    <style name="AppTheme_5" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/color_5</item>
+        <item name="colorPrimaryDark">@color/color_5_Dark</item>
+        <item name="colorAccent">@color/color_5_Accent</item>
+        <item name="colorButtonNormal">@color/color_5_Accent</item>
     </style>
 
 </resources>
