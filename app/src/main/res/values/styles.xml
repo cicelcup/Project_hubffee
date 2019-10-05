@@ -7,6 +7,11 @@
         <item name="colorPrimaryDark">@color/color_1_primary_Dark</item>
         <item name="colorAccent">@color/color_1_Secondary</item>
         <item name="colorButtonNormal">@color/color_1_Secondary</item>
+        <item name="android:buttonStyle">@style/ButtonColor_1</item>
+    </style>
+
+    <style name="ButtonColor_1" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/color_1_Secondary_Text</item>
     </style>
 
     <style name="AppTheme_2" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -15,6 +20,11 @@
         <item name="colorPrimaryDark">@color/color_2_primary_Dark</item>
         <item name="colorAccent">@color/color_2_Secondary</item>
         <item name="colorButtonNormal">@color/color_2_Secondary</item>
+        <item name="android:buttonStyle">@style/ButtonColor_2</item>
+    </style>
+
+    <style name="ButtonColor_2" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/color_2_Secondary_Text</item>
     </style>
 
     <style name="AppTheme_3" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -23,6 +33,11 @@
         <item name="colorPrimaryDark">@color/color_3_primary_Dark</item>
         <item name="colorAccent">@color/color_3_Secondary</item>
         <item name="colorButtonNormal">@color/color_3_Secondary</item>
+        <item name="android:buttonStyle">@style/ButtonColor_3</item>
+    </style>
+
+    <style name="ButtonColor_3" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/color_3_Secondary_Text</item>
     </style>
 
     <style name="AppTheme_4" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -31,6 +46,11 @@
         <item name="colorPrimaryDark">@color/color_4_primary_Dark</item>
         <item name="colorAccent">@color/color_4_Secondary</item>
         <item name="colorButtonNormal">@color/color_4_Secondary</item>
+        <item name="android:buttonStyle">@style/ButtonColor_4</item>
+    </style>
+
+    <style name="ButtonColor_4" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/color_4_Secondary_Text</item>
     </style>
 
     <style name="AppTheme_5" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -39,6 +59,11 @@
         <item name="colorPrimaryDark">@color/color_5_primary_Dark</item>
         <item name="colorAccent">@color/color_5_Secondary</item>
         <item name="colorButtonNormal">@color/color_5_Secondary</item>
+        <item name="android:buttonStyle">@style/ButtonColor_5</item>
+    </style>
+
+    <style name="ButtonColor_5" parent="@style/Widget.AppCompat.Button.Colored">
+        <item name="android:textColor">@color/color_5_Secondary_Text</item>
     </style>
 
 </resources>
