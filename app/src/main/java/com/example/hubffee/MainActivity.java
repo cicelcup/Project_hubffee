@@ -72,8 +72,28 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void openScreen(View view) {
-//        changing the app theme
-        Intent intent = new Intent(this,Screen1.class);
+        Intent intent;
+        switch(view.getId()){
+            case R.id.button1:
+                intent = new Intent(this,Screen1.class);
+                break;
+            case R.id.button2:
+                intent = new Intent(this,Screen2.class);
+                break;
+            case R.id.button3:
+                intent = new Intent(this,Screen3.class);
+                break;
+            case R.id.button4:
+                intent = new Intent(this,Screen4.class);
+                break;
+            case R.id.button5:
+                intent = new Intent(this,Screen5.class);
+                break;
+            default:
+                intent = new Intent(this,Screen6.class);
+                break;
+        }
+
         startActivity(intent);
     }
 
