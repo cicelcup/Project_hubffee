@@ -1,6 +1,8 @@
 package com.example.hubffee;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
@@ -71,7 +73,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void openScreen(View view) {
 //        changing the app theme
-        changingAppTheme();
+        Intent intent = new Intent(this,Screen1.class);
+        startActivity(intent);
     }
 
 //    function to change the app theme

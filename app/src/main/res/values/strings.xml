@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">hubffee</string>
+    <string name="pantalla_1">Pantalla 1</string>
+    <string name="pantalla_2">Pantalla 2</string>
+    <string name="pantalla_3">Pantalla 3</string>
+    <string name="pantalla_4">Pantalla 4</string>
+    <string name="pantalla_5">Pantalla 5</string>
+    <string name="pantalla_6">Pantalla 6</string>
 </resources>
