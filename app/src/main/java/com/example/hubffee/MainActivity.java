@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.RadioButton;
 
 public class MainActivity extends AppCompatActivity {
 //    Variables to recall the last preference for the theme
@@ -51,16 +52,37 @@ public class MainActivity extends AppCompatActivity {
 //    function to change the app theme
     private void changingAppTheme() {
         SharedPreferences.Editor editor = myPreference.edit();
-        if (theme < 5){
-            theme ++;
-        }
-        else{
-            theme = 1;
-        }
-
         editor.putInt("theme",theme);
         editor.commit();
         recreate();
     }
 
+    public void choosingTheme(View view) {
+        boolean checked = ((RadioButton) view).isChecked();
+
+        // Check which radio button was clicked
+        switch(view.getId()) {
+            case R.id.radioButton1:
+                if (checked)
+                    theme = 1;
+                    break;
+            case R.id.radioButton2:
+                if (checked)
+                    theme = 2;
+                    break;
+            case R.id.radioButton3:
+                if (checked)
+                    theme = 3;
+                    break;
+            case R.id.radioButton4:
+                if (checked)
+                    theme = 4;
+                    break;
+            case R.id.radioButton5:
+                if (checked)
+                    theme = 5;
+                    break;
+        }
+        changingAppTheme();
+    }
 }
