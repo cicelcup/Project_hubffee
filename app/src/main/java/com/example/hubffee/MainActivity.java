@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.View;
 import android.widget.RadioButton;
 
@@ -49,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
     }
 //    Function to setting the App Theme
     private void settingAppTheme() {
-        myPreference = getPreferences(MODE_PRIVATE);
+        myPreference = getSharedPreferences("theme",MODE_PRIVATE);
         theme = myPreference.getInt("theme",1);
 
         switch (theme){
