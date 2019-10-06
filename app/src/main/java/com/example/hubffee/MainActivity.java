@@ -18,8 +18,33 @@ public class MainActivity extends AppCompatActivity {
         settingAppTheme();
 
         setContentView(R.layout.activity_main);
+        settingRadioButton();
     }
 
+    private void settingRadioButton(){
+        switch (theme){
+            case 1:
+                RadioButton r1 = (RadioButton)findViewById(R.id.radioButton1);
+                r1.setChecked(true);
+                break;
+            case 2:
+                RadioButton r2 = (RadioButton)findViewById(R.id.radioButton2);
+                r2.setChecked(true);
+                break;
+            case 3:
+                RadioButton r3 = (RadioButton)findViewById(R.id.radioButton3);
+                r3.setChecked(true);
+                break;
+            case 4:
+                RadioButton r4 = (RadioButton)findViewById(R.id.radioButton4);
+                r4.setChecked(true);
+                break;
+            case 5:
+                RadioButton r5 = (RadioButton)findViewById(R.id.radioButton5);
+                r5.setChecked(true);
+                break;
+        }
+    }
 //    Function to setting the App Theme
     private void settingAppTheme() {
         myPreference = getPreferences(MODE_PRIVATE);
