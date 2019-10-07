@@ -1,9 +1,13 @@
 package com.example.hubffee;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.ArrayList;
 
@@ -20,6 +24,7 @@ public class Screen1 extends AppCompatActivity {
         //      setting the layout
         setContentView(R.layout.activity_screen1);
 
+        choosingAdd();
         addingListView();
     }
 
@@ -43,6 +48,34 @@ public class Screen1 extends AppCompatActivity {
         ListView listView = (ListView)findViewById(R.id.listOfClients);
 
         listView.setAdapter(itemsAdapter);
+    }
+
+    public void choosingAdd() {
+        FloatingActionButton add = findViewById(R.id.floatingActionButton);
+        Drawable drawable;
+        // Check which radio button was clicked
+        switch(settings.getTheme()) {
+            case 1:
+                drawable = getResources().getDrawable(R.drawable.ic_add_white_24dp);
+                add.setImageDrawable(drawable);
+                break;
+            case 2:
+                drawable = getResources().getDrawable(R.drawable.ic_add_black_24dp);
+                add.setImageDrawable(drawable);
+                break;
+            case 3:
+                drawable = getResources().getDrawable(R.drawable.ic_add_white_24dp);
+                add.setImageDrawable(drawable);
+                break;
+            case 4:
+                drawable = getResources().getDrawable(R.drawable.ic_add_black_24dp);
+                add.setImageDrawable(drawable);
+                break;
+            case 5:
+                drawable = getResources().getDrawable(R.drawable.ic_add_white_24dp);
+                add.setImageDrawable(drawable);
+                break;
+        }
     }
 
 
