@@ -29,7 +29,6 @@
         android:layout_marginRight="24dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintStart_toStartOf="@+id/guideline" />

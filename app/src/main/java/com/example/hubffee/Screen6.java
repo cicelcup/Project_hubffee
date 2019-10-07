@@ -14,10 +14,10 @@ public class Screen6 extends AppCompatActivity {
     private int usedHours;
     private int remainingHours;
     private int differenceHours;
-    TextView viewTotalHours;
-    TextView viewUsedHours;
-    TextView viewRemainingHours;
-    TextView viewDifferenceHours;
+    private TextView viewTotalHours;
+    private TextView viewUsedHours;
+    private TextView viewRemainingHours;
+    private TextView viewDifferenceHours;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,9 +67,6 @@ public class Screen6 extends AppCompatActivity {
         viewDifferenceHours.setTextColor(getResources().getColor(R.color.color_1_Primary_Text));
         packageCircle = (GradientDrawable) viewDifferenceHours.getBackground();
         packageCircle.setColor(getResources().getColor(R.color.color_1_Primary));
-
-
-
     }
 
     public void lessHours(View view) {
