@@ -13,4 +13,14 @@
     <string name="pantalla_4">Tipos de Paquetes</string>
     <string name="pantalla_5">Paquetes Clientes</string>
     <string name="pantalla_6">Agregar Paquete</string>
+    <string name="one">Cliente 1</string>
+    <string name="two">Cliente 2</string>
+    <string name="three">Cliente 3</string>
+    <string name="four">Cliente 4</string>
+    <string name="five">Cliente 5</string>
+    <string name="six">Cliente 6</string>
+    <string name="seven">Cliente 7</string>
+    <string name="eight">Cliente 8</string>
+    <string name="nine">Cliente 9</string>
+    <string name="ten">Cliente 10</string>
 </resources>
