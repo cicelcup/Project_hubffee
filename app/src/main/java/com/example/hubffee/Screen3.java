@@ -1,12 +1,18 @@
 package com.example.hubffee;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -44,8 +50,33 @@ public class Screen3 extends AppCompatActivity {
 
         //Check if setting was pressed
         if (id == R.id.actions_settings) {
-            Toast.makeText(this,"hello",Toast.LENGTH_SHORT);
-            return true;
+            EditText nameEdition = findViewById(R.id.name_edition);
+            nameEdition.setEnabled(true);
+
+            EditText lastNameEdition = findViewById(R.id.last_name_edition);
+            lastNameEdition.setEnabled(true);
+
+            EditText idEdition = findViewById(R.id.id_edition);
+            idEdition.setEnabled(true);
+
+            EditText emailEdition= findViewById(R.id.email_edition);
+            emailEdition.setEnabled(true);
+
+            EditText phoneEdition = findViewById(R.id.phone_edition);
+            phoneEdition.setEnabled(true);
+
+            RadioButton basicEdition = findViewById(R.id.basic_edition);
+            basicEdition.setEnabled(true);
+
+            RadioButton premiumEdition = findViewById(R.id.premium_edition);
+            premiumEdition.setEnabled(true);
+
+            RadioButton emprendeEdition = findViewById(R.id.emprende_edition);
+            emprendeEdition.setEnabled(true);
+
+            Button saveEdition = findViewById(R.id.save_edition);
+            saveEdition.setEnabled(true);
+
         }
         return super.onOptionsItemSelected(item);
     }
@@ -68,5 +99,9 @@ public class Screen3 extends AppCompatActivity {
         packageCircle = (GradientDrawable) viewRemainingHours.getBackground();
         packageCircle.setColor(getResources().getColor(R.color.color_5_Primary));
 
+    }
+
+    public void cofirmSave(View view) {
+        Toast.makeText(this,"Salvando información del cliente",Toast.LENGTH_SHORT).show();
     }
 }

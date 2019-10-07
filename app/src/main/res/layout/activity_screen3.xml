@@ -108,7 +108,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/name_edition"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -137,7 +137,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/last_name_edition"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -192,7 +192,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/id_edition"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -208,7 +208,7 @@
         app:layout_constraintStart_toStartOf="@+id/guideline" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/email_edition"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -224,7 +224,7 @@
         app:layout_constraintStart_toStartOf="@+id/guideline" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/phone_edition"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -274,10 +274,10 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         app:layout_constraintStart_toStartOf="@+id/guideline"
-        app:layout_constraintTop_toBottomOf="@+id/editText5">
+        app:layout_constraintTop_toBottomOf="@+id/phone_edition">
 
         <RadioButton
-            android:id="@+id/radioButton7"
+            android:id="@+id/basic_edition"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="true"
@@ -286,7 +286,7 @@
             android:text="Básico" />
 
         <RadioButton
-            android:id="@+id/radioButton6"
+            android:id="@+id/premium_edition"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:enabled="false"
@@ -294,7 +294,7 @@
             android:text="Premium" />
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/emprende_edition"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:enabled="false"
@@ -303,7 +303,7 @@
     </RadioGroup>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/save_edition"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -313,6 +313,7 @@
         android:layout_marginBottom="32dp"
         android:enabled="false"
         android:text="Guardar"
+        android:onClick="cofirmSave"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
