@@ -33,7 +33,22 @@ public class Screen5 extends AppCompatActivity {
         ArrayList<PackageHour> packagesOfClient = new ArrayList<PackageHour>();
 
         packagesOfClient.add(new PackageHour(
-                1,"Basico",30,"10-09-2019",15)
+                1,"Basico",30,"07-09-2019",0)
+        );
+        packagesOfClient.add(new PackageHour(
+                2,"Premium",60,"10-09-2019",0)
+        );
+        packagesOfClient.add(new PackageHour(
+                3,"Basico",30,"12-09-2019",0)
+        );
+        packagesOfClient.add(new PackageHour(
+                4,"Emprende",90,"18-09-2019",15)
+        );
+        packagesOfClient.add(new PackageHour(
+                5,"Basico",30,"25-09-2019",15)
+        );
+        packagesOfClient.add(new PackageHour(
+                6,"Premium",90,"30-09-2019",15)
         );
 
         HoursAdapter hoursAdapter = new HoursAdapter(this, packagesOfClient);
