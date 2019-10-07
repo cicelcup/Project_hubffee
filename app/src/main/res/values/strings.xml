@@ -12,7 +12,8 @@
     <string name="pantalla_3">Ver Cliente</string>
     <string name="pantalla_4">Tipos de Paquetes</string>
     <string name="pantalla_5">Paquetes Clientes</string>
-    <string name="pantalla_6">Agregar Paquete</string>
+    <string name="pantalla_6">Cargar Horas</string>
+
     <string name="one">Cliente 1</string>
     <string name="two">Cliente 2</string>
     <string name="three">Cliente 3</string>
