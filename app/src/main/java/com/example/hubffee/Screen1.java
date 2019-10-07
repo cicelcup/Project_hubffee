@@ -1,8 +1,11 @@
 package com.example.hubffee;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
+import java.util.ArrayList;
 
 public class Screen1 extends AppCompatActivity {
     private Settings settings;
@@ -16,5 +19,31 @@ public class Screen1 extends AppCompatActivity {
         settings.settingAppTheme();
         //      setting the layout
         setContentView(R.layout.activity_screen1);
+
+        addingListView();
     }
+
+    private void addingListView() {
+        ArrayList<String> clients = new ArrayList<String>();
+
+        clients.add(getString(R.string.one));
+        clients.add(getString(R.string.two));
+        clients.add(getString(R.string.three));
+        clients.add(getString(R.string.four));
+        clients.add(getString(R.string.five));
+        clients.add(getString(R.string.six));
+        clients.add(getString(R.string.seven));
+        clients.add(getString(R.string.eight));
+        clients.add(getString(R.string.nine));
+        clients.add(getString(R.string.ten));
+
+        ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1, clients);
+
+        ListView listView = (ListView)findViewById(R.id.listOfClients);
+
+        listView.setAdapter(itemsAdapter);
+    }
+
+
 }
