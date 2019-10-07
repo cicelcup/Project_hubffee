@@ -8,6 +8,7 @@
         <item name="colorAccent">@color/color_1_Secondary</item>
         <item name="android:buttonStyle">@style/ButtonColor_1</item>
         <item name="actionBarStyle">@style/ActionBarStyle_1</item>
+        <item name="android:textColor">@color/color_1_Secondary</item>
     </style>
 
     <style name="ButtonColor_1" parent="@style/Widget.AppCompat.Button.Colored">
@@ -31,6 +32,7 @@
         <item name="colorAccent">@color/color_2_Secondary</item>
         <item name="android:buttonStyle">@style/ButtonColor_2</item>
         <item name="actionBarStyle">@style/ActionBarStyle_2</item>
+        <item name="android:textColor">@color/color_2_Secondary</item>
     </style>
 
     <style name="ButtonColor_2" parent="@style/Widget.AppCompat.Button.Colored">
@@ -54,6 +56,7 @@
         <item name="colorAccent">@color/color_3_Secondary</item>
         <item name="android:buttonStyle">@style/ButtonColor_3</item>
         <item name="actionBarStyle">@style/ActionBarStyle_3</item>
+        <item name="android:textColor">@color/color_3_Secondary</item>
     </style>
 
     <style name="ButtonColor_3" parent="@style/Widget.AppCompat.Button.Colored">
@@ -77,6 +80,7 @@
         <item name="colorAccent">@color/color_4_Secondary</item>
         <item name="android:buttonStyle">@style/ButtonColor_4</item>
         <item name="actionBarStyle">@style/ActionBarStyle_4</item>
+        <item name="android:textColor">@color/color_4_Secondary</item>
     </style>
 
     <style name="ButtonColor_4" parent="@style/Widget.AppCompat.Button.Colored">
@@ -100,6 +104,7 @@
         <item name="colorAccent">@color/color_5_Secondary</item>
         <item name="android:buttonStyle">@style/ButtonColor_5</item>
         <item name="actionBarStyle">@style/ActionBarStyle_5</item>
+        <item name="android:textColor">@color/color_5_Secondary</item>
     </style>
 
     <style name="ButtonColor_5" parent="@style/Widget.AppCompat.Button.Colored">

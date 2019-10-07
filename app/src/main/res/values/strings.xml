@@ -9,7 +9,7 @@
 
     <string name="pantalla_1">Clientes hubffee</string>
     <string name="pantalla_2">Nuevo Cliente</string>
-    <string name="pantalla_3">Editar Cliente</string>
+    <string name="pantalla_3">Ver Cliente</string>
     <string name="pantalla_4">Tipos de Paquetes</string>
     <string name="pantalla_5">Paquetes Clientes</string>
     <string name="pantalla_6">Agregar Paquete</string>
