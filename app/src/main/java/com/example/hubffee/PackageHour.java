@@ -2,17 +2,23 @@ package com.example.hubffee;
 
 import java.util.Date;
 
-public class Package {
+public class PackageHour {
+    private int item;
     private String packageType;
     private int hoursTotal;
-    private Date mDate;
+    private String mDate;
     private int hoursRemaining;
 
-    public Package(String packageType, int hoursTotal, Date mDate, int hoursRemaining) {
+    public PackageHour(int item,String packageType, int hoursTotal, String mDate, int hoursRemaining) {
+        this.item = item;
         this.packageType = packageType;
         this.hoursTotal = hoursTotal;
         this.mDate = mDate;
         this.hoursRemaining = hoursRemaining;
+    }
+
+    public int getItem() {
+        return item;
     }
 
     public String getPackageType() {
@@ -23,7 +29,7 @@ public class Package {
         return hoursTotal;
     }
 
-    public Date getmDate() {
+    public String getmDate() {
         return mDate;
     }
 

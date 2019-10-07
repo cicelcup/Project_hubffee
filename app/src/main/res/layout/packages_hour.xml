@@ -8,7 +8,7 @@
 
         <!--Text View to show the magnitude. It uses a drawable image -->
         <TextView
-            android:id="@+id/magnitude"
+            android:id="@+id/item"
             android:layout_width="36dp"
             android:layout_height="36dp"
             android:layout_marginStart="8dp"
@@ -22,11 +22,11 @@
             app:layout_constraintEnd_toStartOf="@+id/guideline"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            tools:text="6.9" />
+            tools:text="1" />
 
         <!--Location offset TextView-->
         <TextView
-            android:id="@+id/location_offset"
+            android:id="@+id/package_type"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -38,12 +38,12 @@
             android:textSize="12sp"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="@+id/guideline"
-            app:layout_constraintTop_toTopOf="@+id/magnitude"
+            app:layout_constraintTop_toTopOf="@+id/item"
             tools:text="Paquete: " />
 
         <!--Location text View-->
         <TextView
-            android:id="@+id/location"
+            android:id="@+id/package_hours"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -53,7 +53,7 @@
             android:textSize="14sp"
             app:layout_constraintEnd_toStartOf="@+id/guideline2"
             app:layout_constraintStart_toStartOf="@+id/guideline"
-            app:layout_constraintTop_toBottomOf="@+id/location_offset"
+            app:layout_constraintTop_toBottomOf="@+id/package_type"
             tools:text="Horas adquiridas:" />
 
         <!--Date View-->
@@ -67,19 +67,19 @@
             app:layout_constraintEnd_toEndOf="parent"
             android:textSize="12sp"
             app:layout_constraintStart_toStartOf="@+id/guideline2"
-            app:layout_constraintTop_toTopOf="@+id/location_offset"
+            app:layout_constraintTop_toTopOf="@+id/package_type"
             tools:text="Dec 8, 1981" />
 
         <!-- Time View-->
         <TextView
-            android:id="@+id/time"
+            android:id="@+id/packages_remaining"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp"
             android:gravity="end"
             android:textSize="12sp"
-            app:layout_constraintBaseline_toBaselineOf="@+id/location"
+            app:layout_constraintBaseline_toBaselineOf="@+id/package_hours"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="@+id/guideline2"
             tools:text="Restantes: 30" />
@@ -98,7 +98,5 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             app:layout_constraintGuide_percent="0.7" />
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
