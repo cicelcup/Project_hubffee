@@ -16,6 +16,7 @@
         android:layout_marginEnd="64dp"
         android:layout_marginRight="64dp"
         android:text="+"
+        android:onClick="moreHours"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
@@ -32,6 +33,7 @@
         android:layout_marginRight="32dp"
         android:text="Paquete Emprende"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -45,6 +47,7 @@
         android:layout_marginRight="16dp"
         android:text="Totales"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -58,7 +61,7 @@
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
         android:textColor="@android:color/white"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView12"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         tools:text="90" />
@@ -72,6 +75,7 @@
         android:layout_marginRight="16dp"
         android:text="Utilizadas"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
@@ -85,7 +89,7 @@
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
         android:textColor="@android:color/white"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView13"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         tools:text="52" />
@@ -100,7 +104,7 @@
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
         android:textColor="@android:color/white"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView14"
         app:layout_constraintStart_toStartOf="@+id/guideline5"
         tools:text="52" />
@@ -124,6 +128,7 @@
         android:layout_marginRight="16dp"
         android:text="Restantes"
         android:textSize="16sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintTop_toBottomOf="@+id/textView13" />
 
@@ -135,7 +140,7 @@
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
         android:textColor="@android:color/white"
-        android:textSize="16sp"
+        android:textSize="14sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/button8"
         app:layout_constraintEnd_toStartOf="@+id/button9"
         app:layout_constraintStart_toEndOf="@+id/button8"
@@ -151,6 +156,7 @@
         android:layout_marginEnd="64dp"
         android:layout_marginRight="64dp"
         android:text="-"
+        android:onClick="lessHours"
         android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/guideline5"
         app:layout_constraintStart_toStartOf="parent"
