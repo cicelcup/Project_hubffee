@@ -30,7 +30,7 @@ public class HoursAdapter extends ArrayAdapter<PackageHour> {
 
         PackageHour packageHour= getItem(position);
 
-        TextView textItem = currentView.findViewById(R.id.item);
+        TextView textItem = currentView.findViewById(R.id.total_hours);
         textItem.setText(Integer.toString(packageHour.getItem()));
 
         GradientDrawable packageCircle = (GradientDrawable) textItem.getBackground();
