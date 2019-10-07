@@ -9,10 +9,10 @@
 
     <string name="pantalla_1">Clientes hubffee</string>
     <string name="pantalla_2">Nuevo Cliente</string>
-    <string name="pantalla_3">Ver Cliente</string>
+    <string name="pantalla_3">Cliente: Jorge Peroza</string>
     <string name="pantalla_4">Tipos de Paquetes</string>
-    <string name="pantalla_5">Paquetes Clientes</string>
-    <string name="pantalla_6">Cargar Horas</string>
+    <string name="pantalla_5">Paquetes Jorge Peroza</string>
+    <string name="pantalla_6">Cargar Horas a Jorge Peroza</string>
 
     <string name="one">Cliente 1</string>
     <string name="two">Cliente 2</string>

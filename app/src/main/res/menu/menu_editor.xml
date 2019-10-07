@@ -7,7 +7,6 @@
     <!--setting button menu to show-->
     <item
         android:id="@+id/actions_settings"
-        android:icon="@drawable/ic_format_list_bulleted_black_24dp"
         android:orderInCategory="1"
         android:title="editar"
         app:showAsAction="ifRoom" />

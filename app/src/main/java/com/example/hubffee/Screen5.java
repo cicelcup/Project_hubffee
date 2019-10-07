@@ -42,10 +42,10 @@ public class Screen5 extends AppCompatActivity {
                 3,"Basico",30,"12-09-2019",0)
         );
         packagesOfClient.add(new PackageHour(
-                4,"Emprende",90,"18-09-2019",15)
+                4,"Emprende",90,"18-09-2019",0)
         );
         packagesOfClient.add(new PackageHour(
-                5,"Basico",30,"25-09-2019",15)
+                5,"Basico",30,"25-09-2019",0)
         );
         packagesOfClient.add(new PackageHour(
                 6,"Premium",90,"30-09-2019",15)

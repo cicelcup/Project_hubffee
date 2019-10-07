@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.view.Menu;
@@ -15,6 +16,8 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class Screen3 extends AppCompatActivity {
     private Settings settings;
@@ -40,6 +43,7 @@ public class Screen3 extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         //Menu main is a layout created
         getMenuInflater().inflate(R.menu.menu_editor, menu);
+        choosingAdd(menu.getItem(0));
         return true;
     }
 
@@ -103,5 +107,32 @@ public class Screen3 extends AppCompatActivity {
 
     public void cofirmSave(View view) {
         Toast.makeText(this,"Salvando información del cliente",Toast.LENGTH_SHORT).show();
+    }
+
+    public void choosingAdd(MenuItem item) {
+        Drawable drawable;
+        // Check which radio button was clicked
+        switch(settings.getTheme()) {
+            case 1:
+                drawable = getResources().getDrawable(R.drawable.ic_format_list_bulleted_white_24dp);
+                item.setIcon(drawable);
+                break;
+            case 2:
+                drawable = getResources().getDrawable(R.drawable.ic_format_list_bulleted_white_24dp);
+                item.setIcon(drawable);
+                break;
+            case 3:
+                drawable = getResources().getDrawable(R.drawable.ic_format_list_bulleted_black_24dp);
+                item.setIcon(drawable);
+                break;
+            case 4:
+                drawable = getResources().getDrawable(R.drawable.ic_format_list_bulleted_black_24dp);
+                item.setIcon(drawable);
+                break;
+            case 5:
+                drawable = getResources().getDrawable(R.drawable.ic_format_list_bulleted_black_24dp);
+                item.setIcon(drawable);
+                break;
+        }
     }
 }
