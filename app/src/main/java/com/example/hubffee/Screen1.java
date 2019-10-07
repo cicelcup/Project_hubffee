@@ -24,7 +24,8 @@ public class Screen1 extends AppCompatActivity {
         //      setting the layout
         setContentView(R.layout.activity_screen1);
 
-        choosingAdd();
+        FloatingActionButton add = findViewById(R.id.floatingActionButtonClients);
+        settings.choosingAdd(add);
         addingListView();
     }
 
@@ -49,34 +50,4 @@ public class Screen1 extends AppCompatActivity {
 
         listView.setAdapter(itemsAdapter);
     }
-
-    public void choosingAdd() {
-        FloatingActionButton add = findViewById(R.id.floatingActionButton);
-        Drawable drawable;
-        // Check which radio button was clicked
-        switch(settings.getTheme()) {
-            case 1:
-                drawable = getResources().getDrawable(R.drawable.ic_add_white_24dp);
-                add.setImageDrawable(drawable);
-                break;
-            case 2:
-                drawable = getResources().getDrawable(R.drawable.ic_add_black_24dp);
-                add.setImageDrawable(drawable);
-                break;
-            case 3:
-                drawable = getResources().getDrawable(R.drawable.ic_add_white_24dp);
-                add.setImageDrawable(drawable);
-                break;
-            case 4:
-                drawable = getResources().getDrawable(R.drawable.ic_add_black_24dp);
-                add.setImageDrawable(drawable);
-                break;
-            case 5:
-                drawable = getResources().getDrawable(R.drawable.ic_add_white_24dp);
-                add.setImageDrawable(drawable);
-                break;
-        }
-    }
-
-
 }

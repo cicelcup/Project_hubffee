@@ -3,6 +3,9 @@ package com.example.hubffee;
 import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
+import android.graphics.drawable.Drawable;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 //Class to set the theme of the activity
 public class Settings {
@@ -57,5 +60,32 @@ public class Settings {
         editor.putInt("theme",theme);
         editor.commit();
         activity.recreate();
+    }
+
+    public void choosingAdd(FloatingActionButton add) {
+        Drawable drawable;
+        // Check which radio button was clicked
+        switch(theme) {
+            case 1:
+                drawable = context.getResources().getDrawable(R.drawable.ic_add_white_24dp);
+                add.setImageDrawable(drawable);
+                break;
+            case 2:
+                drawable = context.getResources().getDrawable(R.drawable.ic_add_black_24dp);
+                add.setImageDrawable(drawable);
+                break;
+            case 3:
+                drawable = context.getResources().getDrawable(R.drawable.ic_add_white_24dp);
+                add.setImageDrawable(drawable);
+                break;
+            case 4:
+                drawable = context.getResources().getDrawable(R.drawable.ic_add_black_24dp);
+                add.setImageDrawable(drawable);
+                break;
+            case 5:
+                drawable = context.getResources().getDrawable(R.drawable.ic_add_white_24dp);
+                add.setImageDrawable(drawable);
+                break;
+        }
     }
 }
