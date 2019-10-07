@@ -1,4 +1,5 @@
 <resources>
+<!--    Button Names-->
     <string name="app_name">hubffee</string>
     <string name="button_1">Pantalla 1</string>
     <string name="button_2">Pantalla 2</string>
@@ -7,6 +8,7 @@
     <string name="button_5">Pantalla 5</string>
     <string name="button_6">Pantalla 6</string>
 
+<!--    Screens Names-->
     <string name="pantalla_1">Clientes hubffee</string>
     <string name="pantalla_2">Nuevo Cliente</string>
     <string name="pantalla_3">Cliente: Jorge Peroza</string>
@@ -14,6 +16,7 @@
     <string name="pantalla_5">Paquetes Jorge Peroza</string>
     <string name="pantalla_6">Cargar Horas a Jorge Peroza</string>
 
+    <!--Clients Name-->
     <string name="one">Cliente 1</string>
     <string name="two">Cliente 2</string>
     <string name="three">Cliente 3</string>
@@ -24,4 +27,26 @@
     <string name="eight">Cliente 8</string>
     <string name="nine">Cliente 9</string>
     <string name="ten">Cliente 10</string>
+    <string name="eleven">Cliente 11</string>
+    <string name="twelve">Cliente 12</string>
+    <string name="thirteen">Cliente 13</string>
+    <string name="fourteen">Cliente 14</string>
+    <string name="fiveteen">Cliente 15</string>
+    <string name="sixteen">Cliente 16</string>
+    <string name="seventeen">Cliente 17</string>
+    <string name="eighteen">Cliente 18</string>
+    <string name="nineteen">Cliente 19</string>
+    <string name="twenty">Cliente 20</string>
+    <string name="edit_menu_title">editar</string>
+    <string name="name_new_client">Nombre:</string>
+    <string name="lastName_new_client">Apellido:</string>
+    <string name="id_new_client">Id:</string>
+    <string name="email_new_client">Correo:</string>
+    <string name="phone_new_client">Teléfono:</string>
+    <string name="type_new_client">Tipo:</string>
+    <string name="basic_new_client">Usuario Normal</string>
+    <string name="premium_new_client">Usuario Premium</string>
+    <string name="VIP_new_client">Usuario VIP</string>
+    <string name="add_new_client">Agregar</string>
+    <string name="save_client">Guardar</string>
 </resources>

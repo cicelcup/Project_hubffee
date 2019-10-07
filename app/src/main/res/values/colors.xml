@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+<!--First combination of colors according the branding book.
+The combination has two different colors-->
     <color name="color_1_Primary">#646569</color>
     <color name="color_1_Primary_Light">#929397</color>
     <color name="color_1_primary_Dark">#3a3b3e</color>
@@ -10,6 +11,8 @@
     <color name="color_1_Secondary_Dark">#732f00</color>
     <color name="color_1_Secondary_Text">#ffffff</color>
 
+    <!--Second combination of colors according the branding book.
+The combination has two different colors-->
     <color name="color_2_Primary">#a75a29</color>
     <color name="color_2_Primary_Light">#dd8854</color>
     <color name="color_2_primary_Dark">#732f00</color>
@@ -19,6 +22,8 @@
     <color name="color_2_Secondary_Dark">#c77c1a</color>
     <color name="color_2_Secondary_Text">#000000</color>
 
+    <!--Third combination of colors according the branding book.
+The combination has two different colors-->
     <color name="color_3_Primary">#FFAB4C</color>
     <color name="color_3_Primary_Light">#ffdd7c</color>
     <color name="color_3_primary_Dark">#c77c1a</color>
@@ -28,6 +33,8 @@
     <color name="color_3_Secondary_Dark">#732f00</color>
     <color name="color_3_Secondary_Text">#ffffff</color>
 
+    <!--Fourth combination of colors according the branding book.
+The combination has two different colors-->
     <color name="color_4_Primary">#a4d55d</color>
     <color name="color_4_Primary_Light">#d7ff8d</color>
     <color name="color_4_primary_Dark">#72a32d</color>
@@ -36,6 +43,9 @@
     <color name="color_4_Secondary_Light">#ffdd7c</color>
     <color name="color_4_Secondary_Dark">#c77c1a</color>
     <color name="color_4_Secondary_Text">#000000</color>
+
+    <!--Fifth combination of colors according the branding book.
+The combination has two different colors-->
 
     <color name="color_5_Primary">#69c9ba</color>
     <color name="color_5_Primary_Light">#9cfcec</color>
@@ -46,7 +56,8 @@
     <color name="color_5_Secondary_Dark">#732f00</color>
     <color name="color_5_Secondary_Text">#ffffff</color>
 
-    <color name="basico_color">@color/color_4_Primary</color>
+<!--    Colors related to the premium packages-->
+    <color name="basic_color">@color/color_4_Primary</color>
     <color name="premium_color">@color/color_5_Primary</color>
-    <color name="emprende_color">@color/color_3_Primary</color>
+    <color name="entrepreneur_color">@color/color_3_Primary</color>
 </resources>

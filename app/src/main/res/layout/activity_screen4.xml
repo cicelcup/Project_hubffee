@@ -14,7 +14,7 @@
         android:layout_marginLeft="24dp"
         android:layout_marginTop="48dp"
         android:text="Paquete Basico:"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -27,7 +27,7 @@
         android:layout_marginLeft="24dp"
         android:layout_marginTop="24dp"
         android:text="Paquete Premium:"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
@@ -40,7 +40,7 @@
         android:layout_marginLeft="24dp"
         android:layout_marginTop="24dp"
         android:text="Paquete Emprende:"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
@@ -63,6 +63,7 @@
         android:ems="10"
         android:gravity="center_horizontal"
         android:inputType="number"
+        android:textSize="16sp"
         android:text="30"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="@id/guideline4"
@@ -80,6 +81,7 @@
         android:gravity="center_horizontal"
         android:inputType="number"
         android:text="60"
+        android:textSize="16sp"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="@id/guideline4"
         app:layout_constraintStart_toStartOf="@+id/guideline3" />
@@ -95,6 +97,7 @@
         android:ems="10"
         android:gravity="center_horizontal"
         android:inputType="number"
+        android:textSize="16sp"
         android:text="90"
         app:layout_constraintBaseline_toBaselineOf="@+id/textView8"
         app:layout_constraintEnd_toEndOf="@id/guideline4"

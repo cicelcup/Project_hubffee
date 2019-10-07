@@ -31,8 +31,8 @@ public class Screen6 extends AppCompatActivity {
 
         configuringScreen();
         totalHours = 90;
-        usedHours = 50;
-        remainingHours = 40;
+        usedHours = 70;
+        remainingHours = 20;
         differenceHours = 0;
         configuringHours(totalHours,usedHours,remainingHours,differenceHours);
     }

@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--Screen for all the clients in the app-->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+<!--Floating button to add new clients-->
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButtonClients"
         android:layout_width="wrap_content"
@@ -15,6 +17,7 @@
         android:layout_marginRight="24dp"
         android:layout_marginBottom="24dp"/>
 
+<!--    list view to show the clients-->
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -29,7 +32,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" >
-
     </ListView>
 
 

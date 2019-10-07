@@ -42,6 +42,16 @@ public class Screen1 extends AppCompatActivity {
         clients.add(getString(R.string.eight));
         clients.add(getString(R.string.nine));
         clients.add(getString(R.string.ten));
+        clients.add(getString(R.string.eleven));
+        clients.add(getString(R.string.twelve));
+        clients.add(getString(R.string.thirteen));
+        clients.add(getString(R.string.fourteen));
+        clients.add(getString(R.string.fiveteen));
+        clients.add(getString(R.string.sixteen));
+        clients.add(getString(R.string.seventeen));
+        clients.add(getString(R.string.eighteen));
+        clients.add(getString(R.string.nineteen));
+        clients.add(getString(R.string.twenty));
 
         ArrayAdapter<String> itemsAdapter = new ArrayAdapter<String>(this,
                 android.R.layout.simple_list_item_1, clients);

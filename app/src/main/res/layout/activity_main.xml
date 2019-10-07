@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--Screen to show all the screens of the app-->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -6,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+<!--    Button for opening Screen 1-->
     <Button
         android:id="@+id/button1"
         android:layout_width="wrap_content"
@@ -21,6 +23,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+<!--    Button for opening Screen 2-->
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
@@ -36,6 +39,7 @@
         app:layout_constraintStart_toEndOf="@+id/button1"
         app:layout_constraintTop_toTopOf="parent" />
 
+<!--    Button for opening Screen 3 -->
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
@@ -51,6 +55,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button1" />
 
+<!--    Button for opening Screen 4-->
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
@@ -66,6 +71,7 @@
         app:layout_constraintStart_toEndOf="@+id/button3"
         app:layout_constraintTop_toBottomOf="@+id/button2" />
 
+<!--    Button for opening Screen 5-->
     <Button
         android:id="@+id/button5"
         android:layout_width="wrap_content"
@@ -81,6 +87,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 
+<!--    Button for opening Screen 6-->
     <Button
         android:id="@+id/button6"
         android:layout_width="wrap_content"
@@ -96,6 +103,7 @@
         app:layout_constraintStart_toEndOf="@+id/button5"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
 
+<!--    Radio group of options theme-->
     <RadioGroup
         android:id="@+id/radioGroup"
         android:layout_width="wrap_content"

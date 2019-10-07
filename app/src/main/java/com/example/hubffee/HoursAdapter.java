@@ -58,13 +58,13 @@ public class HoursAdapter extends ArrayAdapter<PackageHour> {
 
         switch (packageType) {
             case "Basico":
-                color = getContext().getResources().getColor(R.color.basico_color);
+                color = getContext().getResources().getColor(R.color.basic_color);
                 break;
             case "Premium":
                 color = getContext().getResources().getColor(R.color.premium_color);
                 break;
             default:
-                color = getContext().getResources().getColor(R.color.emprende_color);
+                color = getContext().getResources().getColor(R.color.entrepreneur_color);
                 break;
         }
         return color;

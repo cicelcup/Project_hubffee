@@ -1,8 +1,7 @@
 <resources>
 
-    <!-- Base application theme. -->
+    <!-- Base application theme. First Combination -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/color_1_Primary</item>
         <item name="colorPrimaryDark">@color/color_1_primary_Dark</item>
         <item name="colorAccent">@color/color_1_Secondary</item>
@@ -12,11 +11,13 @@
         <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
     </style>
 
+<!--    Button style. First Combination-->
     <style name="ButtonColor_1" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:textColor">@color/color_1_Secondary_Text</item>
         <item name="android:background">@color/color_1_Secondary</item>
     </style>
 
+<!-- Action Bar Style. First Combination    -->
     <style name="ActionBarStyle_1" parent="Widget.AppCompat.ActionBar">
         <item name="titleTextStyle">@style/ActionBarTitleTextStyle_1</item>
         <item name="background">@color/color_1_Primary</item>
@@ -26,8 +27,8 @@
         <item name="android:textColor">@color/color_1_Primary_Text</item>
     </style>
 
+    <!-- Base application theme. Second Combination -->
     <style name="AppTheme_2" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/color_2_Primary</item>
         <item name="colorPrimaryDark">@color/color_2_primary_Dark</item>
         <item name="colorAccent">@color/color_2_Secondary</item>
@@ -37,11 +38,13 @@
         <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_white_24dp</item>
     </style>
 
+<!--    Button Style. Second Combination-->
     <style name="ButtonColor_2" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:textColor">@color/color_2_Secondary_Text</item>
         <item name="android:background">@color/color_2_Secondary</item>
     </style>
 
+<!--    Action Bar Style. Second Combination-->
     <style name="ActionBarStyle_2" parent="Widget.AppCompat.ActionBar">
         <item name="titleTextStyle">@style/ActionBarTitleTextStyle_2</item>
         <item name="background">@color/color_2_Primary</item>
@@ -51,8 +54,8 @@
         <item name="android:textColor">@color/color_2_Primary_Text</item>
     </style>
 
+<!--Base application theme. Third Combination -->
     <style name="AppTheme_3" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/color_3_Primary</item>
         <item name="colorPrimaryDark">@color/color_3_primary_Dark</item>
         <item name="colorAccent">@color/color_3_Secondary</item>
@@ -62,11 +65,13 @@
         <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_black_24dp</item>
     </style>
 
+<!--Button Style. Third Combination-->
     <style name="ButtonColor_3" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:textColor">@color/color_3_Secondary_Text</item>
         <item name="android:background">@color/color_3_Secondary</item>
     </style>
 
+<!--    Action Bar Style. Third Combination-->
     <style name="ActionBarStyle_3" parent="Widget.AppCompat.ActionBar">
         <item name="titleTextStyle">@style/ActionBarTitleTextStyle_3</item>
         <item name="background">@color/color_3_Primary</item>
@@ -76,8 +81,8 @@
         <item name="android:textColor">@color/color_3_Primary_Text</item>
     </style>
 
+<!--    Base application theme. Fourth combination-->
     <style name="AppTheme_4" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/color_4_Primary</item>
         <item name="colorPrimaryDark">@color/color_4_primary_Dark</item>
         <item name="colorAccent">@color/color_4_Secondary</item>
@@ -87,11 +92,13 @@
         <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_black_24dp</item>
     </style>
 
+<!--    Button Style. Fourth Combination-->
     <style name="ButtonColor_4" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:textColor">@color/color_4_Secondary_Text</item>
         <item name="android:background">@color/color_4_Secondary</item>
     </style>
 
+<!--    Action Bar Style. Fourth Combination-->
     <style name="ActionBarStyle_4" parent="Widget.AppCompat.ActionBar">
         <item name="titleTextStyle">@style/ActionBarTitleTextStyle_4</item>
         <item name="background">@color/color_4_Primary</item>
@@ -101,8 +108,8 @@
         <item name="android:textColor">@color/color_4_Primary_Text</item>
     </style>
 
+<!--    Base application theme. Fifth combination-->
     <style name="AppTheme_5" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/color_5_Primary</item>
         <item name="colorPrimaryDark">@color/color_5_primary_Dark</item>
         <item name="colorAccent">@color/color_5_Secondary</item>
@@ -112,11 +119,13 @@
         <item name="android:homeAsUpIndicator">@drawable/ic_arrow_back_black_24dp</item>
     </style>
 
+<!--    Button Style. Fifth combination-->
     <style name="ButtonColor_5" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:textColor">@color/color_5_Secondary_Text</item>
         <item name="android:background">@color/color_5_Secondary</item>
     </style>
 
+<!--    Action Bar Style. Fifth combination-->
     <style name="ActionBarStyle_5" parent="Widget.AppCompat.ActionBar">
         <item name="titleTextStyle">@style/ActionBarTitleTextStyle_5</item>
         <item name="background">@color/color_5_Primary</item>
@@ -125,5 +134,4 @@
     <style name="ActionBarTitleTextStyle_5" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
         <item name="android:textColor">@color/color_5_Primary_Text</item>
     </style>
-
 </resources>
