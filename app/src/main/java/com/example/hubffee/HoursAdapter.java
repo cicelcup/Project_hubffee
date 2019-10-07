@@ -31,7 +31,7 @@ public class HoursAdapter extends ArrayAdapter<PackageHour> {
         PackageHour packageHour= getItem(position);
 
         TextView textItem = currentView.findViewById(R.id.item);
-        textItem.setText(packageHour.getItem());
+        textItem.setText(Integer.toString(packageHour.getItem()));
 
         GradientDrawable packageCircle = (GradientDrawable) textItem.getBackground();
 
@@ -41,13 +41,13 @@ public class HoursAdapter extends ArrayAdapter<PackageHour> {
         textViewPackageType.setText(packageHour.getPackageType());
 
         TextView textViewPackageHours = currentView.findViewById(R.id.package_hours);
-        textViewPackageHours.setText(packageHour.getHoursTotal());
+        textViewPackageHours.setText(Integer.toString(packageHour.getHoursTotal()));
 
         TextView textViewDate = currentView.findViewById(R.id.date);
         textViewDate.setText(packageHour.getmDate());
 
         TextView textViewRemaining = currentView.findViewById(R.id.packages_remaining);
-        textViewRemaining.setText(packageHour.getHoursRemaining());
+        textViewRemaining.setText(Integer.toString(packageHour.getHoursRemaining()));
 
         return currentView;
     }

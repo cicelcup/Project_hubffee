@@ -46,7 +46,7 @@
     <color name="color_5_Secondary_Dark">#732f00</color>
     <color name="color_5_Secondary_Text">#ffffff</color>
 
-    <color name="basico_color">@android:color/holo_green_light</color>
-    <color name="premium_color">@android:color/holo_blue_light</color>
-    <color name="emprende_color">@android:color/holo_orange_light</color>
+    <color name="basico_color">@color/color_4_Primary</color>
+    <color name="premium_color">@color/color_5_Primary</color>
+    <color name="emprende_color">@color/color_3_Primary</color>
 </resources>

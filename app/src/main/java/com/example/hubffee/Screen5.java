@@ -25,18 +25,23 @@ public class Screen5 extends AppCompatActivity {
 
         FloatingActionButton add = findViewById(R.id.floatingActionButtonPackage);
         settings.choosingAdd(add);
+
+        addingListView();
     }
 
     private void addingListView() {
         ArrayList<PackageHour> packagesOfClient = new ArrayList<PackageHour>();
 
-//        final QuakeAdapter adapter = new QuakeAdapter(this,
-//                QuakeQuery.extractQuakes(jsonQuakes));
+        packagesOfClient.add(new PackageHour(
+                1,"Basico",30,"10-09-2019",15)
+        );
+
+        HoursAdapter hoursAdapter = new HoursAdapter(this, packagesOfClient);
 
 
         ListView listView = (ListView)findViewById(R.id.package_list);
 
-//        listView.setAdapter(itemsAdapter);
+        listView.setAdapter(hoursAdapter);
     }
 
 }
