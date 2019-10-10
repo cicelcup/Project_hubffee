@@ -321,6 +321,8 @@
             android:layout_marginEnd="32dp"
             android:layout_marginRight="32dp"
             android:layout_marginBottom="32dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
             android:enabled="false"
             android:onClick="cofirmSave"
             android:text="@string/save_client"

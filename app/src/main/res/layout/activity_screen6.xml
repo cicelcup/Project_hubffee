@@ -166,6 +166,8 @@
         android:id="@+id/button10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
         android:layout_marginTop="64dp"
         android:text="Aceptar"
         app:layout_constraintEnd_toEndOf="parent"

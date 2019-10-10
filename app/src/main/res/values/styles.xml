@@ -14,7 +14,7 @@
 <!--    Button style. First Combination-->
     <style name="ButtonColor_1" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:textColor">@color/color_1_Secondary_Text</item>
-        <item name="android:background">@color/color_1_Secondary</item>
+        <item name="android:background">@drawable/btn_rounded_1</item>
     </style>
 
 <!-- Action Bar Style. First Combination    -->
@@ -41,7 +41,7 @@
 <!--    Button Style. Second Combination-->
     <style name="ButtonColor_2" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:textColor">@color/color_2_Secondary_Text</item>
-        <item name="android:background">@color/color_2_Secondary</item>
+        <item name="android:background">@drawable/btn_rounded_2</item>
     </style>
 
 <!--    Action Bar Style. Second Combination-->
@@ -68,7 +68,7 @@
 <!--Button Style. Third Combination-->
     <style name="ButtonColor_3" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:textColor">@color/color_3_Secondary_Text</item>
-        <item name="android:background">@color/color_3_Secondary</item>
+        <item name="android:background">@drawable/btn_rounded_3</item>
     </style>
 
 <!--    Action Bar Style. Third Combination-->
@@ -95,7 +95,7 @@
 <!--    Button Style. Fourth Combination-->
     <style name="ButtonColor_4" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:textColor">@color/color_4_Secondary_Text</item>
-        <item name="android:background">@color/color_4_Secondary</item>
+        <item name="android:background">@drawable/btn_rounded_4</item>
     </style>
 
 <!--    Action Bar Style. Fourth Combination-->
@@ -122,7 +122,7 @@
 <!--    Button Style. Fifth combination-->
     <style name="ButtonColor_5" parent="@style/Widget.AppCompat.Button.Colored">
         <item name="android:textColor">@color/color_5_Secondary_Text</item>
-        <item name="android:background">@color/color_5_Secondary</item>
+        <item name="android:background">@drawable/btn_rounded_5</item>
     </style>
 
 <!--    Action Bar Style. Fifth combination-->
